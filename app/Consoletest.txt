@@ -1,0 +1,54 @@
+30 - grempel@gmail.com
+23 - fluettgen@oreilly.org
+35 - willms.abe@yahoo.com
+50 - victoria.dach@hotmail.com
+24 - madyson59@gmail.com
+37 - marjorie71@jacobi.com
+31 - ppredovic@kemmer.com
+32 - omorissette@mclaughlin.com
+39 - pattie20@larson.com
+40 - israel94@yundt.info
+36 - chaz70@gmail.com
+38 - ward.carter@yahoo.com
+45 - quitzon.weldon.c
+1 - damore.kiera@kunde.com
+3 - altenwerth.eloy@yahoo.com
+4 - pedro75@yahoo.com
+6 - ruben.harvey@raynor.com
+2 - bo90@boehm.com
+8 - bill.bradtke@roob.com
+7 - hickle.abel@yahoo.com
+12 - mckenna.rennerlangworth.org
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause' (SQL: select count(*) as aggregate from `failed_emails` where `uuid` = 12)
+
+  at C:\Users\a.moghadampoor\Desktop\laravel\vendor\laravel\framework\src\Illuminate\Database\Connection.php:712
+    708▕         // If an exception occurs when attempting to run a query, we'll format the error
+    709▕         // message to include the bindings with SQL, which will make this exception a
+    710▕         // lot more helpful to the developer instead of just the database's errors.
+    711▕         catch (Exception $e) {
+  ➜ 712▕             throw new QueryException(
+    713▕                 $query, $this->prepareBindings($bindings), $e
+    714▕             );
+    715▕         }
+    716▕     }
+
+  • A column was not found: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    https://laravel.com/docs/master/migrations#running-migrations
+
+  1   C:\Users\a.moghadampoor\Desktop\laravel\vendor\laravel\framework\src\Illuminate\Database\Connection.php:368
+      PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'")
+
+  2   C:\Users\a.moghadampoor\Desktop\laravel\vendor\laravel\framework\src\Illuminate\Database\Connection.php:368
+      PDO::prepare("select count(*) as aggregate from `failed_emails` where `uuid` = ?")
+15 - creola.medhurst@hotmail.com
+19 - jarred63@gmail.com
+20 - cormier.cade@tremblay.info
+11 - precious04@gmail.com
+16 - elisa.wehner@gmail.com
+26 - felipa42@towne.com
+29 - kamryn29@dach.com
+28 - pcorkery@yahoo.com
+30 - metz.odessa@becker.org
